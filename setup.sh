@@ -36,7 +36,7 @@ pip install -U setuptools
 pip install cupy
 pip install pynvrtc
 pip install numpy
-conda install -c menpo opencv3
+conda install -c -y menpo opencv3
 
 #FastPhotoStyle repository with ade20k_ssn segmentation
 
