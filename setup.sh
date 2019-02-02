@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Script to setup a Ubuntu 16.04 to use FastPhotoStyle from Nvidia (https://github.com/NVIDIA/FastPhotoStyle)
+# (requires a Nvidia GPU that supports CUDA 9.1)
+
+# How to use :
+# wget https://github.com/midm/FastPhotoStyle/edit/master/setup.sh
+# bash -i setup.sh
+# (can take a while)
+# source ~/.bashrc
+
+# Anaconda and FastPhotoStyle folders will be in your home folder
+
 #CUDA 9.1
 
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.1.85-1_amd64.deb
