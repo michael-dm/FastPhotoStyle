@@ -19,7 +19,7 @@ from torchvision import transforms
 import numpy as np
 
 parser = argparse.ArgumentParser(description='Photorealistic Image Stylization')
-parser.add_argument('--model_path', help='folder to model path', default='baseline-resnet50_dilated8-ppm_bilinear_deepsup')
+parser.add_argument('--model_path', help='folder to model path', default='baseline-resnet50dilated-ppm_deepsup')
 parser.add_argument('--suffix', default='_epoch_20.pth', help="which snapshot to load")
 parser.add_argument('--arch_encoder', default='resnet50_dilated8', help="architecture of net_encoder")
 parser.add_argument('--arch_decoder', default='ppm_bilinear_deepsup', help="architecture of net_decoder")
