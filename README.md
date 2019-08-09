@@ -11,7 +11,7 @@ Script to setup a Ubuntu 16.04 to use FastPhotoStyle from Nvidia (https://github
 // (can take a while)  
 `source ~/.bashrc`  
 
-# Anaconda and FastPhotoStyle folders will be in your home folder
+Anaconda and FastPhotoStyle folders will be in your home folder
 
 ## FastPhotoStyle
 
