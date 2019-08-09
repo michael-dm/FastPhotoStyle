@@ -2,6 +2,17 @@
 ![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)
 ![Python 3.5](https://img.shields.io/badge/python-3.5-green.svg)
 
+Script to setup a Ubuntu 16.04 to use FastPhotoStyle from Nvidia (https://github.com/NVIDIA/FastPhotoStyle)
+(requires a Nvidia GPU that supports CUDA 9.1)
+
+# How to use :
+`wget https://github.com/micodeyt/FastPhotoStyle/edit/master/setup.sh
+bash -i setup.sh
+// (can take a while)
+source ~/.bashrc`
+
+# Anaconda and FastPhotoStyle folders will be in your home folder
+
 ## FastPhotoStyle
 
 ### License
