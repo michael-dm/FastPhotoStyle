@@ -4,7 +4,7 @@
 # (requires a Nvidia GPU that supports CUDA 9.1)
 
 # How to use :
-# wget https://github.com/midm/FastPhotoStyle/edit/master/setup.sh
+# wget https://github.com/micodeyt/FastPhotoStyle/edit/master/setup.sh
 # bash -i setup.sh
 # (can take a while)
 # source ~/.bashrc
